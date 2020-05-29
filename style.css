@@ -1,0 +1,371 @@
+body{
+    margin:0;
+    padding:0;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+/*topheader start*/
+.topheader{
+    background-color:#535D69;
+    height: 45px;
+    overflow: hidden;
+    padding-bottom: 10px;
+
+}
+.welcome{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+.socialicon{
+    width: 70%;
+    overflow: hidden;
+}
+.socialicon ul li i{
+    font-size: 20px;
+   color: white;
+}
+.socialicon ul li i:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.socialicon ul{
+    float: right;
+}
+.socialicon ul li{
+    list-style: none;
+    float: left;
+    padding: 0 10px;
+}
+.socialicon ul li a{}
+.welcome p{
+    color:white;
+    font-family: sans-serif;
+    width: 100%;
+}
+/*topheader end*/
+
+/*main header start*/
+.mainheader {
+    overflow: hidden;
+    background-color: white;
+    padding:20px 0;
+}
+
+.logo {
+    float: left;
+    width: 15%;
+}
+.logo img{
+    width: 100%;
+}
+
+.menu {
+    overflow: hidden;
+    width: 85%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0 18px;
+  color: #535D69;
+}
+.menu ul li a:last-child{
+    padding-right: 0px;
+}
+.menu ul li a:hover{
+color: #FF0000;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    background-image:url(./img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.bcontaint h2{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.bcontaint p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.bcontaint button{
+    background-color: #FF0000;
+    border-color: none;
+    border: 0px;
+    border-radius: 5px;
+    padding: 13px 15px;
+}
+.bcontaint button a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+/*banner end*/
+/*Working section start*/
+.how{
+    text-align: center;
+    padding-top: 60px;
+
+}
+.how h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #161616;
+}
+.how h1:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.how p{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #161616;
+}
+.img1,.img2,.img3{
+    width: 25%;
+    float: left;
+    padding: 0 40px;
+    padding-bottom: 80px;
+}
+.img1 img{
+    width: 80%;
+}
+.img2 img{
+    width: 80%;
+}
+
+.img3 img{
+    width: 80%;
+}
+.workimg{
+    text-align: center;
+    padding-top: 50px;
+    overflow: hidden;
+
+}
+.workimg p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.workme{
+    padding-bottom: 100px;
+}
+/*Working section end*/
+/*video section start*/
+.over {
+}
+
+.learn {
+    float: left;
+    width: 45%;
+}
+
+.learn h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #161616;
+}
+.learn p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.learn button{
+   background-color: #FF0000;
+   border: none;
+   padding: 5px 30px;
+   border-radius: 5px;
+}
+.learn button a{
+   text-decoration: none;
+   color: white;
+}
+
+
+.video {
+    width: 55%;
+    overflow: hidden;
+    
+}
+.over{
+    background-color: #f4efef;
+    padding: 50px;
+}
+/*video section end*/
+.text{
+    text-align: center;
+}
+.text h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #161616;
+    }
+.Feature{
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.text p{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #161616;
+}
+.Featureimage{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fimg1 {
+    float: left;
+    width: 30%;
+    margin: 0 3px;
+   
+}
+
+.fimg2 {
+    float: left;
+    width: 30%;
+    margin: 0 3px;
+   
+}
+
+.fimg3 {
+    width: 30%;
+    overflow: hidden;
+    margin: 0 3px;
+  
+}
+.fimg1,.fimg2,.fimg3{
+    padding: 20px;
+    width: 28%;
+    padding: 15px 18px;
+        border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    cursor: pointer;
+    box-shadow: 0 6px 10px 4px #8883;
+}
+
+/*
+.fimg1:hover{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    cursor: pointer;
+}
+.fimg2:hover{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    cursor: pointer;
+}
+.fimg3:hover{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    cursor: pointer;
+}
+*/
+.div{
+    text-align: center;
+}
+/*Footer start*/
+.contact{
+    overflow: hidden;
+    float: left;
+    width: 30%;
+}
+.phone,.mark,.email {
+    padding-bottom: 10px;
+}
+.USEFUl{
+    overflow: hidden;
+    float: left;
+    width: 30%;
+}
+.our{
+    overflow: hidden;
+    float: right;
+    width: 30%;
+}.wrapper2{
+    padding-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.socil12{
+    overflow: hidden;
+}
+.socil12 ul{}
+.c1ontact{
+    margin-left: 152px;
+    margin-top: -50px;
+}
+.c1ontact ul li{
+    padding: 0 10px;
+    float: left;
+    list-style: none;
+font-size: 25px;
+color: #535D69;}
+.footer{
+    background-color: black;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.all h2,p,li,address{
+    color: #535D69; 
+}
+.c1ontact ul li i:hover{
+color: #FF0000;
+cursor: pointer;
+}
+.USEFUl ul li:hover{
+    color: #FF0000;
+    }
+.contact h2,.USEFUl h2,.our h2{
+    color: #FF0000;
+}
+input[type="email" i] {
+    padding: 5px 5px;
+    border: none;
+}
+button{
+    padding: 5px 5px;
+    border: none; 
+}
+.copy{
+    text-align: center;
+    background-color: #535D69;
+    padding: 5px 0px;
+}
+.copy p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+}
